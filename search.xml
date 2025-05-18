@@ -4,22 +4,9 @@
   
     
     <entry>
-      <title>Hello World</title>
-      <link href="/2025/05/18/hello-world/"/>
-      <url>/2025/05/18/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>欢迎来到Duck_fox的技术小窝</title>
-      <link href="/2023/10/01/self-introduction/"/>
-      <url>/2023/10/01/self-introduction/</url>
+      <link href="/2025/05/18/self-introduction/"/>
+      <url>/2025/05/18/self-introduction/</url>
       
         <content type="html"><![CDATA[<style>  /* 只针对这篇文章的样式 */  .post-content .duckfox-intro {    --primary-blue: #3498db;    --primary-pink: #e84393;    --light-text: #2c3e50;  }    .post-content .duckfox-intro h1 {    text-align: center;    color: var(--primary-blue);    margin-bottom: 0.5em;  }    .post-content .duckfox-intro .subtitle {    text-align: center;    font-size: 1.2em;    color: var(--light-text);    margin-bottom: 2em;  }    .post-content .duckfox-intro .profile-card {    background: rgba(245, 247, 250, 0.8);    border-radius: 10px;    padding: 20px;    margin: 20px 0;    border-left: 4px solid var(--primary-pink);  }    .post-content .duckfox-intro h2 {    color: var(--primary-blue);    border-bottom: 2px solid var(--primary-pink);    padding-bottom: 8px;    display: inline-block;  }    .post-content .duckfox-intro ul {    list-style-type: none;    padding-left: 0;  }    .post-content .duckfox-intro a {    color: var(--primary-blue);    text-decoration: none;    border-bottom: 1px dashed var(--primary-blue);  }    /* 暗黑模式适配 */  @media (prefers-color-scheme: dark) {    .post-content .duckfox-intro .profile-card {      background: rgba(44, 62, 80, 0.8);      color: #ecf0f1;    }    .post-content .duckfox-intro h1,    .post-content .duckfox-intro h2 {      color: var(--primary-pink);    }    .post-content .duckfox-intro .subtitle {      color: #ecf0f1;    }    .post-content .duckfox-intro a {      color: #7ed6df;      border-bottom-color: #7ed6df;    }  }</style><div class="duckfox-intro">  <h1>👋 你好，我是 Duck_fox！</h1>  <p class="subtitle">欢迎来到我的个人技术博客</p>    <div class="profile-card">    <h2>📌 关于我</h2>    <ul>      <li>🏷️ 昵称：Duck_fox</li>      <li>📧 QQ：<a href="tencent://message/?uin=2660759310">2660759310</a></li>      <li>💻 Java/Kotlin开发者 & Minecraft爱好者</li>    </ul>  </div></div>]]></content>
       
