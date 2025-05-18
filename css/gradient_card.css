@@ -54,8 +54,35 @@
     background: #191919ee;
   }
   
-  /* 个人信息Follow me按钮 */
-  #aside-content > .card-widget.card-info > #card-info-btn {
-    background-color: #3eb8be;
+/* 动态渐变按钮 */
+#aside-content > .card-widget.card-info > #card-info-btn {
+    /* 基础样式 */
     border-radius: 8px;
+    background: linear-gradient(45deg, 
+      #3eb8be, #8a4fff, #ff4d9e, #3eb8be);
+    background-size: 300% 300%; /* 扩大渐变区域 */
+    transition: all 0.5s ease;
+    
+    /* 动画定义 */
+    animation: GradientFlow 6s ease infinite;
+  }
+  
+  /* 鼠标悬停时加速动画 */
+  #aside-content > .card-widget.card-info > #card-info-btn:hover {
+    animation: GradientFlow 3s ease infinite;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* 关键帧动画 - 渐变流动 */
+  @keyframes GradientFlow {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
   }
