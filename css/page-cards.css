@@ -1,0 +1,126 @@
+/* 页面卡片导航样式 */
+.page-cards-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.page-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.page-card {
+  position: relative;
+  min-height: 150px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(100, 100, 255, 0.1);
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.page-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(100, 100, 255, 0.2);
+}
+
+.page-card-content {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.5rem;
+  box-sizing: border-box;
+}
+
+.page-card-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0 0 0.8rem 0;
+  color: #333333;
+  transition: all 0.3s ease;
+}
+
+.page-card-desc {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #666666;
+  margin: 0;
+  transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.page-card:hover .page-card-desc {
+  opacity: 1;
+  max-height: 100px;
+}
+
+.page-card-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  opacity: 0.05;
+  transition: all 0.3s ease;
+}
+
+.page-card:hover .page-card-bg {
+  opacity: 0.1;
+  transform: scale(1.02);
+}
+
+/* 分类标题 */
+.page-cards-category {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(100, 100, 255, 0.2);
+  font-size: 1.5rem;
+  color: #4a6bff;
+}
+
+/* 暗黑模式 */
+@media (prefers-color-scheme: dark) {
+  .page-card {
+    background: #1e1e2e;
+    border-color: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .page-card-title {
+    color: #e0e0e0;
+  }
+  
+  .page-card-desc {
+    color: #aaaaaa;
+  }
+  
+  .page-card:hover {
+    box-shadow: 0 8px 24px rgba(107, 140, 255, 0.3);
+  }
+  
+  .page-cards-category {
+    color: #6b8cff;
+    border-bottom-color: rgba(107, 140, 255, 0.3);
+  }
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .page-cards-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
